@@ -41,6 +41,18 @@
   border: none;
 }
 
+
+
+/* main */
+main > section{
+  margin-top: 130px;
+}
+
+main{
+  max-width: 1335px;
+  margin: 0 auto;
+}
+
 /* header styles */
 
 
@@ -102,6 +114,31 @@
 }
 
 
+.teams{
+  align-items: center;
+}
+
+
+.team-img-container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+
+}
+
+.our-features{
+  margin-left: 130px;
+  max-width: 530px;
+}
+
+.feature-title{
+  font-size: 2.8rem;
+}
+
+#quick-list{
+  font-weight: 500;
+}
+
 /* responsive media query  */
 
 @media screen and (max-width: 576px) {
@@ -109,3 +146,4 @@
     flex-direction: column;
   }
 }
+
